@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Make the body take up the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2; /* Set your background color */
+}
+
+#content-box {
+    border: 2px solid #3498db;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+#centered-text {
+    font-size: 36px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #333; /* Set the color for the centered text */
+}
+
+#copyright {
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
